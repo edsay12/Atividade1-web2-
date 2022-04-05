@@ -17,7 +17,7 @@ Algumas alterações foram realizadas para que o projeto ficasse com as mesmas f
 
 Para executá-lo, basta baixar a pasta do projeto (microservicos) e executar o comando "docker-compose up" na pasta principal. 
 
-```
+``` 
 $ sudo docker-compose up --build -d --scale app=2
 ```
 

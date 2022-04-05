@@ -11,6 +11,7 @@ app.get('/mult', function(req, res) {
     if(!opt1 || !opt2) res.status(400).send({mult:'Erro ou falta de parametros'})
     var mult = opt1 * opt2
     res.status(200).send({mult}) // retorna a multiplicação 
+    console.log('ta na mão')
    });
 
 
